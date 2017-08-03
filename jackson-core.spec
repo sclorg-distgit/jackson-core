@@ -3,7 +3,7 @@
 
 Name:          %{?scl_prefix}jackson-core
 Version:       2.7.6
-Release:       2.1%{?dist}
+Release:       2.2%{?dist}
 Summary:       Core part of Jackson
 License:       ASL 2.0
 URL:           http://wiki.fasterxml.com/JacksonHome
@@ -61,6 +61,9 @@ sed -i 's/\r//' LICENSE NOTICE
 %license LICENSE NOTICE
 
 %changelog
+* Thu Jun 22 2017 Michael Simacek <msimacek@redhat.com> - 2.7.6-2.2
+- Mass rebuild 2017-06-22
+
 * Wed Jun 21 2017 Java Maintainers <java-maint@redhat.com> - 2.7.6-2.1
 - Automated package import and SCL-ization
 
